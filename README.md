@@ -9,7 +9,7 @@
 
 3.  In auth folder. Create two post requests.
 
-    i. Registar request: POST: http://localhost:5000/signup (check console log for autoamtically generated pin. pin will be used to login)
+i. Registar request: POST: http://localhost:5000/signup (check console log for autoamtically generated pin. pin will be used to login)
 
     {
     "first_name":"",
