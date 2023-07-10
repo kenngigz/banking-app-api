@@ -21,8 +21,8 @@ i. Registar request: POST: http://localhost:5000/signup (check the console log f
 ii. Login request: POST: http://localhost:5000/signup
 
     {
-    "customer_ID":"1000",
-    "pin":"5885"
+    "customer_ID":"",
+    "pin":""
     }
 
 ## 4. In the profile folder create two requests. One to get user profile info and the other to create a user profile
