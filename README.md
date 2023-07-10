@@ -1,13 +1,13 @@
 # How to access and use Endpoints
 
-## Create a new collection in Postman
-## Create 4 folders
+## 1. Create a new collection in Postman
+## 2. Create 4 folders
     i. auth
     ii. profile
     iii. account
     iv. transactions
 
-## In auth folder. Create two post requests.
+## 3. In auth folder. Create two post requests.
 
 i. Registar request: POST: http://localhost:5000/signup (check the console log for automatically generated pin. pin will be used to log in)
 
@@ -25,7 +25,7 @@ i. Registar request: POST: http://localhost:5000/signup (check the console log f
     "pin":"5885"
     }
 
-## In the profile folder create two requests. One to get user profile info and the other to create a user profile
+## 4. In the profile folder create two requests. One to get user profile info and the other to create a user profile
 
 i. Create user profile: POST: http://localhost:5000/profile
 
@@ -40,7 +40,7 @@ ii. Get user profile details: GET: http://localhost:5000/profile
      "email":"",
     }
 
-## In the profile folder create two requests. One to get account info and the other to create an account
+## 5. In the profile folder create two requests. One to get account info and the other to create an account
 
 i. Create an account: POST: http://localhost:5000/account
 
@@ -56,7 +56,7 @@ ii. Get account details request: GET: http://localhost:5000/account
      "email":"",
     }
 
-## In the transactions folder we will create 4 requests to DEPOSIT, WITHDRAW, GET TRANSACTIONS, and TRANSFER
+## 6. In the transactions folder we will create 4 requests to DEPOSIT, WITHDRAW, GET TRANSACTIONS, and TRANSFER
 
 i. Deposit into account: POST: http://localhost:5000/deposit/:id
 
