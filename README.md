@@ -18,7 +18,7 @@ i. Registar request: POST: http://localhost:5000/signup (check the console log f
     "id_no":""
     }
 
-    ii. Login request: POST: http://localhost:5000/signup
+ii. Login request: POST: http://localhost:5000/signup
 
     {
     "customer_ID":"1000",
