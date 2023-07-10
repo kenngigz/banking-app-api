@@ -1,0 +1,12 @@
+20230708	23:54:55	5eb05641-5dd0-4494-a41f-26920114ea9d	TypeError: Cannot read properties of undefined (reading 'origin')
+20230708	23:55:42	f570736c-33a8-45ca-b6d7-53c12e0f795f	TypeError: Cannot read properties of undefined (reading 'origin')
+20230708	23:59:34	0661985d-bc60-418f-ae4a-58e2ea465f41	SyntaxError: Unexpected token } in JSON at position 91
+20230709	00:46:58	d6d61277-7ed6-4e40-9f43-9230ff6e3a11	ReferenceError: statusMessage is not defined
+20230709	00:54:29	fdc64415-4b56-40a3-9c2f-9be9cc5d03e6	ReferenceError: duration is not defined
+20230709	00:55:06	5b5381a6-5462-4850-b014-bcebefa340ce	TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function resLogger
+20230709	00:59:54	c67755fc-724d-42b6-ae06-327501f9a142	TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+20230709	01:00:27	9555d10a-665e-4b95-bbc2-85d7d33b1e36	SyntaxError: Unexpected token o in JSON at position 1
+20230709	17:57:57	a5d62766-bc99-42b9-95f8-4562037452c1	SyntaxError: Unexpected token } in JSON at position 116
