@@ -45,9 +45,9 @@ ii. Get user profile details: GET: http://localhost:5000/profile
 i. Create an account: POST: http://localhost:5000/account
 
     {
-      "account_no":"0202",
-      "bank_name":"Equity",
-      "ifsc":"002"
+      "account_no":"",
+      "bank_name":"",
+      "ifsc":""
     }
 
 ii. Get account details request: GET: http://localhost:5000/account
@@ -75,14 +75,14 @@ ii. Withdraw from account: POST: http://localhost:5000/withdraw/:id
 iii. Get all transactions : GET: http://localhost:5000/transactions/:id
 
      {
-      "start_date":"05/05/2023",
-      "end_date":"08/10/2023"
+      "start_date":"",
+      "end_date":""
      }
 
 iv. Transfer Money : POST: http://localhost:5000/debitAndCredit/:id
 
       {
-        "transaction_date":"06/05/2023",
-        "account_no":"125125",
-        "amount":"6"
+        "transaction_date":"",
+        "account_no":"",
+        "amount":""
       }
