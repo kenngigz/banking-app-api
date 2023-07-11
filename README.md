@@ -2,9 +2,10 @@
 
       i. Download and install Postgres from https://www.postgresql.org/download/ 
       ii. clone the project to your local computer
-      iii. run npm install
-      iv. Open SQL shell (psql)  and paste  script from scripts.sql
-      v. run npm start
+      iii. cd server
+      iv. run npm install
+      v. Open SQL shell (psql)  and paste  script from scripts.sql
+      vi. run npm start
 
 # How to access and use Endpoints
 
