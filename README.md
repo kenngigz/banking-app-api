@@ -40,7 +40,7 @@ ii. Get user profile details: GET: http://localhost:5000/profile
      "email":"",
     }
 
-## 5. In the profile folder create two requests. One to get account info and the other to create an account
+## 5. In the account folder create two requests. One to get account info and the other to create an account
 
 i. Create an account: POST: http://localhost:5000/account
 
@@ -56,7 +56,7 @@ ii. Get account details request: GET: http://localhost:5000/account
      "email":"",
     }
 
-## 6. In the transactions folder we will create 4 requests to DEPOSIT, WITHDRAW, GET TRANSACTIONS, and TRANSFER
+## 6. In the transactions folder we will create 4 requests to DEPOSIT, WITHDRAW, GET ALL TRANSACTIONS, GET SINGLE TRANSACTION and TRANSFER
 
 i. Deposit into account: POST: http://localhost:5000/deposit/:id
 
@@ -79,7 +79,12 @@ iii. Get all transactions : GET: http://localhost:5000/transactions/:id
       "end_date":""
      }
 
-iv. Transfer Money : POST: http://localhost:5000/debitAndCredit/:id
+iv. Get a single transaction by id (NOTE USE OF SINGILAR) : POST: http://localhost:5000/transaction/:id
+
+      {
+         "tr_id":"",
+      }
+v. Transfer Money : POST: http://localhost:5000/debitAndCredit/:id
 
       {
         "transaction_date":"",
