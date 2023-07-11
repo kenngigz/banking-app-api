@@ -7,6 +7,8 @@
       v. Open SQL shell (psql)  and paste  script from scripts.sql
       vi. run npm start
 
+### client: https://github.com/kenngigz/banking-app-client
+
 # How to access and use Endpoints
 
 ## 1. Create a new collection in Postman
