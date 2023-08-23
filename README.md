@@ -1,7 +1,7 @@
 # Client requirements 
 
 ## REST API that provides below implementations.
-1. All Endpoints except login must be protected from unauthorized access. Use 
+1. All Endpoints except login must be protected from unauthorized access.
 2. Use Customer ID and PIN to log in.
 2. Document API 
 3. Provide a way to Log API requests payload and response 
@@ -14,6 +14,7 @@
 10. Cash withdrawal Y amount => Debit customer account with Y amount, and return current balance
 11. Funds transfer from customer Account to Account B (Amount X)=> Debit customer account with X amount, and Credit account B with X amount, and return current customer balance.
 12. Search transaction by transaction ID => Return transaction details
+*********************************************************************************************************************************************************************
 
 # Setup
 
