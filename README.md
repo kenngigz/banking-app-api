@@ -1,4 +1,4 @@
-# Client requirements 
+# Client Stories 
 
 ## REST API that provides below implementations.
 1. All Endpoints except login must be protected from unauthorized access.
